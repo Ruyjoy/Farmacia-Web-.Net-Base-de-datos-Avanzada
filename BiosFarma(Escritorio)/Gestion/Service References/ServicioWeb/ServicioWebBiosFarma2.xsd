@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" />
+  <xs:element name="AltaU">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="login" nillable="true" type="q1:Encargado" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="pUsuario" nillable="true" type="q2:Usuario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AltaUResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BajaU">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="login" nillable="true" type="q3:Encargado" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="pUsuario" nillable="true" type="q4:Usuario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BajaUResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModU">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="login" nillable="true" type="q5:Encargado" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="pUsuario" nillable="true" type="q6:Usuario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModUResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Login">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nombreUsuario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pass" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoginResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="LoginResult" nillable="true" type="q7:Usuario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CambioPass">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="pUsuario" nillable="true" type="q8:Usuario" />
+        <xs:element minOccurs="0" name="passNuevo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CambioPassResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultaU">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="login" nillable="true" type="q9:Encargado" />
+        <xs:element minOccurs="0" name="pCedula" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultaUResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="ConsultaUResult" nillable="true" type="q10:Usuario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AltaF">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="login" nillable="true" type="q11:Encargado" />
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="farma" nillable="true" type="q12:Farmaceutica" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AltaFResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BajaF">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="login" nillable="true" type="q13:Encargado" />
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="farma" nillable="true" type="q14:Farmaceutica" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BajaFResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarF">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="login" nillable="true" type="q15:Encargado" />
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="farma" nillable="true" type="q16:Farmaceutica" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarFResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultaF">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="login" nillable="true" type="q17:Encargado" />
+        <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultaFResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="ConsultaFResult" nillable="true" type="q18:Farmaceutica" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultaTodasF">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="login" nillable="true" type="q19:Encargado" />
+        <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultaTodasFResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="ConsultaTodasFResult" nillable="true" type="q20:Farmaceutica" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AltaM">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="login" nillable="true" type="q21:Encargado" />
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="med" nillable="true" type="q22:Medicamento" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AltaMResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BajaM">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="login" nillable="true" type="q23:Encargado" />
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="med" nillable="true" type="q24:Medicamento" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BajaMResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarM">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="login" nillable="true" type="q25:Encargado" />
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="med" nillable="true" type="q26:Medicamento" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarMResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultaM">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="login" nillable="true" type="q27:Encargado" />
+        <xs:element minOccurs="0" name="codigo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nombreFarma" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultaMResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="ConsultaMResult" nillable="true" type="q28:Medicamento" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListaMedXml">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListaMedXmlResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ListaMedXmlResult" nillable="true">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any minOccurs="0" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListaMedStock">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="login" nillable="true" type="q29:Empleado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListaMedStockResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="ListaMedStockResult" nillable="true" type="q30:ArrayOfMedicamento" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AltaP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="pedido" nillable="true" type="q31:Pedido" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AltaPResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultaP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="numPedido" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultaPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="ConsultaPResult" nillable="true" type="q32:Pedido" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CambioEstado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="login" nillable="true" type="q33:Encargado" />
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="pedido" nillable="true" type="q34:Pedido" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CambioEstadoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="login" nillable="true" type="q35:Encargado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="ListarPResult" nillable="true" type="q36:ArrayOfPedido" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AgregarHorasExtras">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="pHorasExtras" nillable="true" type="q37:HorasExtras" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AgregarHorasExtrasResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

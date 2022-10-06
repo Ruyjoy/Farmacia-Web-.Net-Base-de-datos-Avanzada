@@ -1,0 +1,30 @@
+﻿.titulo
+{
+    color: Blue;
+    font-family: "Microsoft YaHei UI";
+    font-size: 36px;
+    width: 250px;
+    height: 55px;
+}
+
+.td
+{
+    font-family: "Microsoft JhengHei";
+}
+.style11
+        {
+            font-family: "Microsoft JhengHei";
+            margin-left: 40px;
+            width: 145px;
+            text-align: right;
+            height: 28px;
+        }
+.tablaRepeater
+{
+    font-family: "Microsoft JhengHei";
+    font-size: small;
+}
+.labels
+{
+    padding-left: 15px;
+}

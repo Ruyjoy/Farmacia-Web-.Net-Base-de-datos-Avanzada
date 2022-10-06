@@ -1,0 +1,14 @@
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\Persistencia\bin\Debug\ClasesBiosFarma.dll
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\Persistencia\bin\Debug\ClasesBiosFarma.pdb
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\Persistencia\obj\Debug\Persistencia.csprojResolveAssemblyReference.cache
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\sistemas\Desktop\ClasesBiosFarma\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\sistemas\Desktop\ClasesBiosFarma\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\sistemas\Desktop\ClasesBiosFarma\Persistencia\bin\Debug\ClasesBiosFarma.dll
+C:\Users\sistemas\Desktop\ClasesBiosFarma\Persistencia\bin\Debug\ClasesBiosFarma.pdb
+C:\Users\sistemas\Desktop\ClasesBiosFarma\Persistencia\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\ClasesBiosFarma\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\sistemas\Desktop\ClasesBiosFarma\Persistencia\obj\Debug\Persistencia.pdb

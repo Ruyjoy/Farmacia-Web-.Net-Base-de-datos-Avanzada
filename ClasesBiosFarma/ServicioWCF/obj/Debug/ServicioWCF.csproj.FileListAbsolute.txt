@@ -1,0 +1,22 @@
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\ServicioWCF\bin\ServicioWCF.dll
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\ServicioWCF\bin\ServicioWCF.pdb
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\ServicioWCF\bin\ClasesBiosFarma.dll
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\ServicioWCF\bin\Logica.dll
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\ServicioWCF\bin\Persistencia.dll
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\ServicioWCF\bin\ClasesBiosFarma.pdb
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\ServicioWCF\bin\Logica.pdb
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\ServicioWCF\bin\Persistencia.pdb
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\ServicioWCF\obj\Debug\ServicioWCF.csprojResolveAssemblyReference.cache
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\ServicioWCF\obj\Debug\ServicioWCF.dll
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\ServicioWCF\obj\Debug\ServicioWCF.pdb
+C:\Users\sistemas\Desktop\ClasesBiosFarma\ServicioWCF\bin\ServicioWCF.dll
+C:\Users\sistemas\Desktop\ClasesBiosFarma\ServicioWCF\bin\ServicioWCF.pdb
+C:\Users\sistemas\Desktop\ClasesBiosFarma\ServicioWCF\bin\ClasesBiosFarma.dll
+C:\Users\sistemas\Desktop\ClasesBiosFarma\ServicioWCF\bin\Logica.dll
+C:\Users\sistemas\Desktop\ClasesBiosFarma\ServicioWCF\bin\Persistencia.dll
+C:\Users\sistemas\Desktop\ClasesBiosFarma\ServicioWCF\bin\ClasesBiosFarma.pdb
+C:\Users\sistemas\Desktop\ClasesBiosFarma\ServicioWCF\bin\Logica.pdb
+C:\Users\sistemas\Desktop\ClasesBiosFarma\ServicioWCF\bin\Persistencia.pdb
+C:\Users\sistemas\Desktop\ClasesBiosFarma\ServicioWCF\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\ClasesBiosFarma\ServicioWCF\obj\Debug\ServicioWCF.dll
+C:\Users\sistemas\Desktop\ClasesBiosFarma\ServicioWCF\obj\Debug\ServicioWCF.pdb

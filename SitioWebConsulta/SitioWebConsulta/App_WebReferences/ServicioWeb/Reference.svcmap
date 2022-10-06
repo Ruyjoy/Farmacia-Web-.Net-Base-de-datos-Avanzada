@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6daa3c5a-1fc1-4561-9415-d68a8653b082" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies>
+      <ReferencedAssembly AssemblyName="Microsoft.CSharp" />
+      <ReferencedAssembly AssemblyName="System" />
+      <ReferencedAssembly AssemblyName="System.Activities" />
+      <ReferencedAssembly AssemblyName="System.ComponentModel.DataAnnotations" />
+      <ReferencedAssembly AssemblyName="System.Configuration" />
+      <ReferencedAssembly AssemblyName="System.Core" />
+      <ReferencedAssembly AssemblyName="System.Data" />
+      <ReferencedAssembly AssemblyName="System.Data.DataSetExtensions" />
+      <ReferencedAssembly AssemblyName="System.Drawing" />
+      <ReferencedAssembly AssemblyName="System.EnterpriseServices" />
+      <ReferencedAssembly AssemblyName="System.IdentityModel" />
+      <ReferencedAssembly AssemblyName="System.Runtime.Serialization" />
+      <ReferencedAssembly AssemblyName="System.ServiceModel" />
+      <ReferencedAssembly AssemblyName="System.ServiceModel.Activation" />
+      <ReferencedAssembly AssemblyName="System.ServiceModel.Activities" />
+      <ReferencedAssembly AssemblyName="System.ServiceModel.Web" />
+      <ReferencedAssembly AssemblyName="System.Web" />
+      <ReferencedAssembly AssemblyName="System.Web.ApplicationServices" />
+      <ReferencedAssembly AssemblyName="System.Web.Extensions" />
+      <ReferencedAssembly AssemblyName="System.Web.Services" />
+      <ReferencedAssembly AssemblyName="System.WorkflowServices" />
+      <ReferencedAssembly AssemblyName="System.Xml" />
+    </ReferencedAssemblies>
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioWebBiosFarma3.xsd" MetadataType="Schema" ID="31690eb3-8a80-45be-9fac-cc524a927c00" SourceId="1" SourceUrl="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioWebBiosFarma32.xsd" MetadataType="Schema" ID="09689059-3904-49b0-bcaa-fd8edd4329fb" SourceId="1" SourceUrl="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioWebBiosFarma33.xsd" MetadataType="Schema" ID="d32cd69b-8179-4365-8d63-f054f637bcff" SourceId="1" SourceUrl="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicioWebBiosFarma1.wsdl" MetadataType="Wsdl" ID="a7c07a39-95c2-4a3f-93ab-13978beb5137" SourceId="1" SourceUrl="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?wsdl" />
+    <MetadataFile FileName="ServicioWebBiosFarma1.disco" MetadataType="Disco" ID="52d1cec3-41eb-4c19-8774-5ce9dd190dff" SourceId="1" SourceUrl="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

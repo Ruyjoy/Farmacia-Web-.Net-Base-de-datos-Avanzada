@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4df9ebb6-2344-41f6-85b8-9d3ba1af4e0b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioWebBiosFarma4.xsd" MetadataType="Schema" ID="53db0e56-8557-458b-a7a5-f9d1caff6227" SourceId="1" SourceUrl="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioWebBiosFarma41.xsd" MetadataType="Schema" ID="da5f09d8-5e7b-4775-8bad-a2fe04acd9a5" SourceId="1" SourceUrl="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioWebBiosFarma1.wsdl" MetadataType="Wsdl" ID="5eb8effc-6363-4b82-a68a-a716885863a1" SourceId="1" SourceUrl="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?wsdl" />
+    <MetadataFile FileName="ServicioWebBiosFarma42.xsd" MetadataType="Schema" ID="b255c9b8-04c6-48c8-87c7-978a1d02aad0" SourceId="1" SourceUrl="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

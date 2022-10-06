@@ -1,0 +1,18 @@
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\Logica\bin\Debug\Logica.dll
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\Logica\bin\Debug\Logica.pdb
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\Logica\bin\Debug\ClasesBiosFarma.dll
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\Logica\bin\Debug\Persistencia.dll
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\Logica\bin\Debug\ClasesBiosFarma.pdb
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\Logica\bin\Debug\Persistencia.pdb
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\Logica\obj\Debug\Logica.dll
+C:\Users\sistemas\documents\visual studio 2010\Projects\ClasesBiosFarma\Logica\obj\Debug\Logica.pdb
+C:\Users\sistemas\Desktop\ClasesBiosFarma\Logica\bin\Debug\Logica.dll
+C:\Users\sistemas\Desktop\ClasesBiosFarma\Logica\bin\Debug\Logica.pdb
+C:\Users\sistemas\Desktop\ClasesBiosFarma\Logica\bin\Debug\ClasesBiosFarma.dll
+C:\Users\sistemas\Desktop\ClasesBiosFarma\Logica\bin\Debug\Persistencia.dll
+C:\Users\sistemas\Desktop\ClasesBiosFarma\Logica\bin\Debug\ClasesBiosFarma.pdb
+C:\Users\sistemas\Desktop\ClasesBiosFarma\Logica\bin\Debug\Persistencia.pdb
+C:\Users\sistemas\Desktop\ClasesBiosFarma\Logica\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\ClasesBiosFarma\Logica\obj\Debug\Logica.dll
+C:\Users\sistemas\Desktop\ClasesBiosFarma\Logica\obj\Debug\Logica.pdb

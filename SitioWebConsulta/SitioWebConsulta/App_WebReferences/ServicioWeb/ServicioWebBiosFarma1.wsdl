@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServicioWebBiosFarma" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicioWebBiosFarma_AltaU_InputMessage">
+    <wsdl:part name="parameters" element="tns:AltaU" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_AltaU_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AltaUResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_BajaU_InputMessage">
+    <wsdl:part name="parameters" element="tns:BajaU" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_BajaU_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BajaUResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ModU_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModU" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ModU_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModUResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_CambioPass_InputMessage">
+    <wsdl:part name="parameters" element="tns:CambioPass" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_CambioPass_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CambioPassResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ConsultaU_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultaU" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ConsultaU_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultaUResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_AltaF_InputMessage">
+    <wsdl:part name="parameters" element="tns:AltaF" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_AltaF_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AltaFResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_BajaF_InputMessage">
+    <wsdl:part name="parameters" element="tns:BajaF" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_BajaF_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BajaFResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ModificarF_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarF" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ModificarF_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarFResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ConsultaF_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultaF" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ConsultaF_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultaFResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ConsultaTodasF_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultaTodasF" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ConsultaTodasF_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultaTodasFResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_AltaM_InputMessage">
+    <wsdl:part name="parameters" element="tns:AltaM" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_AltaM_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AltaMResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_BajaM_InputMessage">
+    <wsdl:part name="parameters" element="tns:BajaM" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_BajaM_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BajaMResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ModificarM_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarM" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ModificarM_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarMResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ConsultaM_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultaM" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ConsultaM_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultaMResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ListaMedXml_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListaMedXml" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ListaMedXml_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListaMedXmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ListaMedStock_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListaMedStock" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ListaMedStock_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListaMedStockResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_AltaP_InputMessage">
+    <wsdl:part name="parameters" element="tns:AltaP" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_AltaP_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AltaPResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ConsultaP_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultaP" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ConsultaP_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultaPResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_CambioEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:CambioEstado" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_CambioEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CambioEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ListarP_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarP" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_ListarP_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarPResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_AgregarHorasExtras_InputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarHorasExtras" />
+  </wsdl:message>
+  <wsdl:message name="IServicioWebBiosFarma_AgregarHorasExtras_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarHorasExtrasResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicioWebBiosFarma">
+    <wsdl:operation name="AltaU">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/AltaU" message="tns:IServicioWebBiosFarma_AltaU_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/AltaUResponse" message="tns:IServicioWebBiosFarma_AltaU_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BajaU">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/BajaU" message="tns:IServicioWebBiosFarma_BajaU_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/BajaUResponse" message="tns:IServicioWebBiosFarma_BajaU_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModU">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ModU" message="tns:IServicioWebBiosFarma_ModU_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ModUResponse" message="tns:IServicioWebBiosFarma_ModU_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/Login" message="tns:IServicioWebBiosFarma_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/LoginResponse" message="tns:IServicioWebBiosFarma_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CambioPass">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/CambioPass" message="tns:IServicioWebBiosFarma_CambioPass_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/CambioPassResponse" message="tns:IServicioWebBiosFarma_CambioPass_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaU">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ConsultaU" message="tns:IServicioWebBiosFarma_ConsultaU_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ConsultaUResponse" message="tns:IServicioWebBiosFarma_ConsultaU_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AltaF">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/AltaF" message="tns:IServicioWebBiosFarma_AltaF_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/AltaFResponse" message="tns:IServicioWebBiosFarma_AltaF_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BajaF">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/BajaF" message="tns:IServicioWebBiosFarma_BajaF_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/BajaFResponse" message="tns:IServicioWebBiosFarma_BajaF_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarF">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ModificarF" message="tns:IServicioWebBiosFarma_ModificarF_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ModificarFResponse" message="tns:IServicioWebBiosFarma_ModificarF_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaF">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ConsultaF" message="tns:IServicioWebBiosFarma_ConsultaF_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ConsultaFResponse" message="tns:IServicioWebBiosFarma_ConsultaF_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaTodasF">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ConsultaTodasF" message="tns:IServicioWebBiosFarma_ConsultaTodasF_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ConsultaTodasFResponse" message="tns:IServicioWebBiosFarma_ConsultaTodasF_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AltaM">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/AltaM" message="tns:IServicioWebBiosFarma_AltaM_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/AltaMResponse" message="tns:IServicioWebBiosFarma_AltaM_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BajaM">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/BajaM" message="tns:IServicioWebBiosFarma_BajaM_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/BajaMResponse" message="tns:IServicioWebBiosFarma_BajaM_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarM">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ModificarM" message="tns:IServicioWebBiosFarma_ModificarM_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ModificarMResponse" message="tns:IServicioWebBiosFarma_ModificarM_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaM">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ConsultaM" message="tns:IServicioWebBiosFarma_ConsultaM_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ConsultaMResponse" message="tns:IServicioWebBiosFarma_ConsultaM_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaMedXml">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ListaMedXml" message="tns:IServicioWebBiosFarma_ListaMedXml_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ListaMedXmlResponse" message="tns:IServicioWebBiosFarma_ListaMedXml_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaMedStock">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ListaMedStock" message="tns:IServicioWebBiosFarma_ListaMedStock_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ListaMedStockResponse" message="tns:IServicioWebBiosFarma_ListaMedStock_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AltaP">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/AltaP" message="tns:IServicioWebBiosFarma_AltaP_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/AltaPResponse" message="tns:IServicioWebBiosFarma_AltaP_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaP">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ConsultaP" message="tns:IServicioWebBiosFarma_ConsultaP_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ConsultaPResponse" message="tns:IServicioWebBiosFarma_ConsultaP_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CambioEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/CambioEstado" message="tns:IServicioWebBiosFarma_CambioEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/CambioEstadoResponse" message="tns:IServicioWebBiosFarma_CambioEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarP">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ListarP" message="tns:IServicioWebBiosFarma_ListarP_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/ListarPResponse" message="tns:IServicioWebBiosFarma_ListarP_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AgregarHorasExtras">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/AgregarHorasExtras" message="tns:IServicioWebBiosFarma_AgregarHorasExtras_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioWebBiosFarma/AgregarHorasExtrasResponse" message="tns:IServicioWebBiosFarma_AgregarHorasExtras_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicioWebBiosFarma" type="tns:IServicioWebBiosFarma">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AltaU">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/AltaU" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BajaU">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/BajaU" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModU">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/ModU" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CambioPass">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/CambioPass" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaU">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/ConsultaU" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaF">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/AltaF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BajaF">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/BajaF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarF">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/ModificarF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaF">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/ConsultaF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaTodasF">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/ConsultaTodasF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaM">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/AltaM" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BajaM">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/BajaM" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarM">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/ModificarM" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaM">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/ConsultaM" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaMedXml">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/ListaMedXml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaMedStock">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/ListaMedStock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaP">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/AltaP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaP">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/ConsultaP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CambioEstado">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/CambioEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarP">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/ListarP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarHorasExtras">
+      <soap:operation soapAction="http://tempuri.org/IServicioWebBiosFarma/AgregarHorasExtras" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicioWebBiosFarma">
+    <wsdl:port name="BasicHttpBinding_IServicioWebBiosFarma" binding="tns:BasicHttpBinding_IServicioWebBiosFarma">
+      <soap:address location="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

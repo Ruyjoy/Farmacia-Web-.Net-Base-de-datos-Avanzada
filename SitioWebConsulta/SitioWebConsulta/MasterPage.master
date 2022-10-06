@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="StyleSheet.css" rel="Stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+  
+    <style type="text/css">
+        .style1
+        {
+            width: 200px;
+            height: 156px;
+        }
+        .style2
+        {
+            width: 91px;
+            height: 83px;
+        }
+        .style3
+        {
+            height: 156px;
+        }
+    </style>
+  
+    </head>
+<body style="height: 450px">
+    <form id="form1" runat="server">
+        <table style="width: 100%;">
+            <tr>
+                <td class="style1"> 
+                    <img alt="" class="style2" src="Imagen/BioFarma.jpg" />
+                    <br />
+                    <br />
+                    <asp:TreeView ID="Menu" runat="server" ShowLines="True" Width="230px">
+                        <Nodes>
+                            <asp:TreeNode Text="Principal" 
+                                Value="Principal" 
+                                NavigateUrl="~/Principal.aspx">
+                            </asp:TreeNode>
+                            <asp:TreeNode Text="Consulta Medicamentos" 
+                                Value="Consulta Medicamentos" 
+                                NavigateUrl="~/ConsultaMedicamentos.aspx">
+                            </asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/ConsultaPedidos.aspx" 
+                                Text="Consulta Pedidos" Value="Listado Movimientos (LinQ)">
+                            </asp:TreeNode>
+                        </Nodes>
+                    </asp:TreeView>
+                </td>
+                <td class="style3" >
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>          
+    </form>
+</body>
+</html>

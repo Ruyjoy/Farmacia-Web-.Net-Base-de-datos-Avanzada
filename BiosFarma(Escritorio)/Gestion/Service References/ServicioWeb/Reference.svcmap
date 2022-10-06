@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b32b66ab-ff33-4fe5-b789-bba783be70d7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioWebBiosFarma.xsd" MetadataType="Schema" ID="7c017dc4-a25c-4e51-b9ac-f87398c7894d" SourceId="1" SourceUrl="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioWebBiosFarma1.xsd" MetadataType="Schema" ID="ef58eb8e-6a29-40cb-b161-b639e5d0e56a" SourceId="1" SourceUrl="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioWebBiosFarma2.xsd" MetadataType="Schema" ID="9373bc66-8b71-4ee8-9af4-31ef48aeac5a" SourceId="1" SourceUrl="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicioWebBiosFarma.wsdl" MetadataType="Wsdl" ID="6751a1ae-5c1f-43a3-874b-d7d2d7dc10bf" SourceId="1" SourceUrl="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?wsdl" />
+    <MetadataFile FileName="ServicioWebBiosFarma.disco" MetadataType="Disco" ID="be575d95-8f0b-4023-bec3-5bbed842207e" SourceId="1" SourceUrl="http://pc112/ServicioWCF/ServicioWebBiosFarma.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

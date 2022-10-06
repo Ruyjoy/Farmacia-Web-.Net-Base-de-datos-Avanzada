@@ -1,0 +1,42 @@
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin\BiosFarmaServicio\ServicioControlHoras\bin\Debug\ServicioControlHoras.exe.config
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin\BiosFarmaServicio\ServicioControlHoras\bin\Debug\ServicioControlHoras.exe
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin\BiosFarmaServicio\ServicioControlHoras\bin\Debug\ServicioControlHoras.pdb
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.ServicioControlHs.resources
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.exe
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.pdb
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin\BiosFarmaServicio\ServicioControlHoras\bin\Debug\ServicioControlHoras.exe.manifest
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin\BiosFarmaServicio\ServicioControlHoras\bin\Debug\ServicioControlHoras.application
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.ProjectInstaller.resources
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.exe.manifest
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.application
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin - merged\BiosFarmaServicio\ServicioControlHoras\bin\Debug\ServicioControlHoras.exe.config
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin - merged\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.exe
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin - merged\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.pdb
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin - merged\BiosFarmaServicio\ServicioControlHoras\bin\Debug\ServicioControlHoras.exe.manifest
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin - merged\BiosFarmaServicio\ServicioControlHoras\bin\Debug\ServicioControlHoras.application
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin - merged\BiosFarmaServicio\ServicioControlHoras\bin\Debug\ServicioControlHoras.exe
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin - merged\BiosFarmaServicio\ServicioControlHoras\bin\Debug\ServicioControlHoras.pdb
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin - merged\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.ProjectInstaller.resources
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin - merged\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.ServicioControlHs.resources
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin - merged\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin - merged\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.exe.manifest
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin - merged\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.application
+C:\Users\user\Desktop\Proyecto Final 2018\ServicioWin - merged\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\BiosFarmaServicio\ServicioControlHoras\bin\Debug\ServicioControlHoras.exe.config
+C:\Users\Administrador\Desktop\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.exe
+C:\Users\Administrador\Desktop\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.pdb
+C:\Users\Administrador\Desktop\BiosFarmaServicio\ServicioControlHoras\bin\Debug\ServicioControlHoras.exe.manifest
+C:\Users\Administrador\Desktop\BiosFarmaServicio\ServicioControlHoras\bin\Debug\ServicioControlHoras.application
+C:\Users\Administrador\Desktop\BiosFarmaServicio\ServicioControlHoras\bin\Debug\ServicioControlHoras.exe
+C:\Users\Administrador\Desktop\BiosFarmaServicio\ServicioControlHoras\bin\Debug\ServicioControlHoras.pdb
+C:\Users\Administrador\Desktop\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.ProjectInstaller.resources
+C:\Users\Administrador\Desktop\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.ServicioControlHs.resources
+C:\Users\Administrador\Desktop\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.csproj.GenerateResource.Cache
+C:\Users\Administrador\Desktop\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.exe.manifest
+C:\Users\Administrador\Desktop\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.application
+C:\Users\Administrador\Desktop\Proyecto Final BiosFarma\BiosFarmaServicio\ServicioControlHoras\bin\Debug\ServicioControlHoras.exe.config
+C:\Users\Administrador\Desktop\Proyecto Final BiosFarma\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.exe
+C:\Users\Administrador\Desktop\Proyecto Final BiosFarma\BiosFarmaServicio\ServicioControlHoras\obj\x86\Debug\ServicioControlHoras.pdb
